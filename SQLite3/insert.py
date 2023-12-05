@@ -9,9 +9,9 @@ cursor = connection.cursor()
 
 # Insert Multiple Values
 many_customers = [
-    ('Ramesh','Patil', 'omyapvt0405@gmail.com'),
-    ('Suresh','Patil', 'suraj201@gmail.com'),
-    ('Suresh','Bhosale', 'suraj201@gmail.com')
+    ('Himesh','Savant', 'omyapvt0405@gmail.com'),
+    ('Vishal','Kumbhar', 'suraj201@gmail.com'),
+    ('Arnav','Mohite', 'suraj201@gmail.com')
     ]
 
 cursor.executemany("INSERT INTO Customers VALUES(?,?,?)", many_customers)
